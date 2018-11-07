@@ -115,6 +115,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="cCard.cpp" />
+    <ClCompile Include="cDealer.cpp" />
+    <ClCompile Include="cHand.cpp" />
+    <ClCompile Include="cHumanPlayer.cpp" />
+    <ClCompile Include="cPack.cpp" />
+    <ClCompile Include="cPlayer.cpp" />
+    <ClCompile Include="main empty.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cCard.h" />
+    <ClInclude Include="cDealer.h" />
+    <ClInclude Include="cHand.h" />
+    <ClInclude Include="cHumanPlayer.h" />
+    <ClInclude Include="cPack.h" />
+    <ClInclude Include="cPlayer.h" />
+    <ClInclude Include="GameConstants.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
